@@ -36,7 +36,7 @@
 | :---: | :---: |
 | ![Linear Forward](Log/Inference/version_2/forward_diffusion_linear.png) | ![Cosine Forward](Log/Inference/version_3/forward_diffusion_cosine.png) |
 
-### Фінальні результати (Cosine + Augmentation)
+### Фінальні результати (Cosine Schedule)
 Використання косинусного графіка зміни параметрів зашумлення дозволило отримати найкращу збіжність моделі на складному датасеті Flowers. За 30 епох навчання фінальний показник MSE Loss склав **0.1387**, що є кращим результатом порівняно з лінійним шедулером.
 
 | Графік Loss (Flowers) | Генерація (30 епох) |
